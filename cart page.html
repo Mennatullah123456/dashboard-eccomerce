@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgs/hom_header/logo.png" type="image/x-icon" />
+<!-- owl-carousel slider  CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome  CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.css" rel="stylesheet" media="all">
+    <!-- Bootstrap 5 CDN-->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <!-- AOS.js css CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- css styles -->
+<link rel="stylesheet" href="./css/style.css">
+    <title>my cart</title>
+</head>  
+<body>
+
+<!-- start coding  -->
+<section class="header"> 
+  <div class="top_info p-1 pb-2">
+<div class="container  container-fluid">
+   <div class="row ">
+       <div class=" col-md-7 d-flex justify-content-center justify-content-md-start justify-content-lg-start  left_content d-block-sm">
+             <i class="fa-solid fa-bullhorn me-1 me-2 mt-1"></i>
+           <span
+           >whatever you`ve got in mind . we`ve got inside</span>
+         </div>
+       <div class=" col-md-5 d-flex justify-content-center justify-content-md-end justify-content-lg-end  right_content">
+           <div class="item">
+               <a href="#">
+                 <i class="fa-brands fa-app-store"></i>
+                  <span class=" d-none d-lg-inline">app store</span>
+               </a>
+           </div>
+           <div class="item mx-3">
+               <a href="#">
+               <i class="fa-brands fa-google-play"></i>
+                <span class=" d-none d-lg-inline">google play</span>
+               </a>
+         </div>
+        <div class="item lang ">
+           <div class="dropdown ">
+               <a class=" dropdown-toggle outline-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+               <span class=" d-none d-lg-inline"> lang</span>
+               <i class="fa-solid fa-language d-inline d-lg-none"></i>
+               </a>
+               <ul class="dropdown-menu outline-none item_drop web_lang  cust_li_style" aria-labelledby="dropdownMenuButton1">
+                 <li><a class="dropdown-item" href="#">english (eng)</a></li>
+                 <li><a class="dropdown-item" href="#">russian (ru) </a>
+               </li>
+                 <li><a class="dropdown-item" href="#">french (fr) </a></li>
+               </li>
+               <li><a class="dropdown-item" href="#">spanish (es) </a></li>
+               </ul>
+             </div>
+        </div>
+        <div class="item currncy   ms-3">
+           <div class="dropdown ">
+               <a class="outline-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                   <span class=" d-none d-lg-inline"> usd</span>
+                   <i class="fa-solid fa-dollar-sign  d-inline d-lg-none"></i>
+               </a>
+             
+               <ul class="dropdown-menu item_drop currn cust_li_style" aria-labelledby="dropdownMenuLink">
+                 <li><a class="dropdown-item" href="#">usd ($)</a></li>
+                 <li><a class="dropdown-item" href="#">eur (€)</a></li>
+             
+               </ul>
+             </div>
+        </div>
+       </div>
+   </div>
+</div>
+</div>
+<!-- start middle top nav -->
+
+<div class="middle_top_navbar "> 
+<div class="container container-fluid">
+   <div class="row d-flex justify-content-space-evenly align-items-center">
+       <div class=" col-sm-12 col-lg-7 main_col d-flex justify-content-lg-start justify-content-sm-center align-items-center py-1 ">
+           <a href="#"> 
+               <img class="logo d-none d-lg-block " src="./imgs/hom_header/logo.png" alt="logo">
+             </a>
+       <div class="input-group ms-3">
+           <select class="form-select w-auto flex-grow-0   d-none d-md-block ">  
+             <option value="US +1">woman clothes</option>
+             <option value="AE +971">men clothes</option>
+             <option value="GB +44">computer & office</option>
+             <option value="IN +91">gallery & watches</option>
+           </select>
+           <!-- <input type="text" class="form-control" aria-label="Mobile Number">
+           <input type="text"> -->
+     <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+     <button type="submit" class="btn btn-light search"> Search</button>
+     </div> 
+       </div>
+       <div class=" col-sm-12 col-lg-5 d-flex main_col justify-content-center  justify-content-lg-end  py-2 ">
+           <div class="flexed_chiled account d-flex justify-content-center align-items-center">
+            <a class="style_ " href="./account.html">
+                   <i class="fa-solid fa-user "></i>
+               </a>
+               <!-- account -->
+               <div class="my_accu mx-2">
+                   <span>my account </span>
+                     <div class="log_goin d-flex my-0  py-0">
+                       <a  href="./login.html" target='_self'> login / </a>
+                       <a  href="./register.html" target='_self'>  register</a>
+                   </div>
+               </div>
+
+           </div>
+           <!-- cart -->
+           <div class="flexed_chiled my_cart d-flex justify-content-center align-items-center ms-3">
+            <a class="style_ afte" href="./cart page.html"   target="_self">
+                   <i class="fa-solid fa-cart-shopping "></i>
+                   </a>
+                   <div class="cart_info ms-2 ">
+                   <span class="cart">my cart</span>
+                   <span class="price d-block">43.6 egp</span>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+</div>
+</section>
+
+<!-- start end top_nav -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+<div class="container container-fluid">
+  <a class="navbar-brand d-lg-none " href="./index.html"
+  target='_self'>
+   <img class="logo h-40 " src="./imgs/hom_header/logo.png" alt="logo"> 
+  </a> 
+ <button class="navbar-toggler my-2"  type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+ <!-- <span class="navbar-toggler-icon"></span> -->
+ <i class="fa-solid fa-bars navbar-toggler-icon "></i>
+ </button>
+ <div class="collapse navbar-collapse" id="main_nav">
+   <ul class="navbar-nav right_drop_menu "> 
+     <li class=" nav-item dropdown my-2  my-lg-0  cato">
+       <a class="nav-link category   " href="#"  data-bs-toggle="dropdown">  <span class="ps-2">category </span>
+           <i class="fa-solid fa-bars ms-4 d-none d-lg-inline "></i>
+           <i class="fa-solid fa-sort-down me-2  d-inline d-lg-none"></i>
+        </a>
+       <ul class="dropdown-menu">
+         <li class="has-submenu">
+           <a class="dropdown-item " href="./all-product.html" target="_self"> woman clothes <i class="fa-solid fa-angle-right"></i> </a>
+           <div class="megasubmenu dropdown-menu">
+               <!--  -->
+   <!-- hover list -->
+       <div class="list_paralex">
+           <div class="container">
+               <div class="row">
+               <div class="col-md-4 ">
+                   <div class="min">
+                       <h4>category</h4>
+                   <ul class="">
+                   <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+                   <li><a href="./all-product.html" target="_self">men clothes</a></li>
+                   <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+                   <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+                   <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+               </ul>
+                   </div>
+               
+               </div>
+               <div class="col-md-4 my-2">
+                   <div class="min">
+                       <h4>category</h4>
+               <ul class="">
+                   <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+                   <li><a href="./all-product.html" target="_self">men clothes</a></li>
+                   <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+                   <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+                   <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+               </ul>
+               </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="min">
+                       <h4>category</h4>
+               <ul class="">
+                   <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+                   <li><a href="./all-product.html" target="_self">men clothes</a></li>
+                   <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+                   <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+                   <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+               </ul>
+               </div>
+               </div>
+               <hr>
+               <div class="col-sm-12">
+                   <img class=" img-fluid " src="./imgs/hom_header/banner07.jpg" alt="banner07">
+               </div>
+           </div>
+       </div> 
+   </div>
+   <!-- end-->
+   <!--  -->
+</div>
+</li>
+<li><a class="dropdown-item" href="./all-product.html" target='_self'> men clothes </a></li>
+<li class="has-submenu"><a class="dropdown-item " href="./all-product.html" target="_self"> phons & accessories <i class="fa-solid fa-angle-right"></i></a>
+<div class="megasubmenu dropdown-menu">
+<div class="list_paralex">
+<div class="container">
+<div class="row">
+<div class=" col-md-8 ">
+<!-- row 1 -->
+<div class="row">
+   <div class="col-md-6">
+       <div class="min">
+           <h4>category</h4>
+       <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+      </div>
+   </div>
+   <div class="col-md-6">
+       <div class="min">
+           <h4>category</h4>
+       <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+      </div>
+   </div>
+</div>
+<!-- row 2 -->
+<hr>
+<div class="row">
+   <div class="col-md-6">
+       <div class="min">
+           <h4>category</h4>
+       <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+      </div>
+   </div>
+   <div class="col-md-6">
+       <div class="min">
+           <h4>category</h4>
+       <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+      </div>
+   </div>
+</div>
+
+</div>
+<!-- start right image columan -->
+<div class="col-md-4   colitem">
+
+<div class="image img-fluid height"></div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</li>
+<li><a class="dropdown-item" href="./all-product.html" target="_self"> computer & office </a></li>
+<li class="has-submenu">
+<a class="dropdown-item " href="./all-product.html" target="_self"> gallery & watches <i class="fa-solid fa-angle-right"></i></a>
+<div class="megasubmenu dropdown-menu">
+             <!-- hover list -->
+ <div class="list_paralex">
+   <div class="container">
+       <div class="row">
+       <div class="col-md-6 col-lg-3 mt-4 ">
+           <div class="min">
+                <h4>category</h4>
+            <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+           </div>
+          
+       </div>
+       <div class="col-md-6 col-lg-3 mt-4 ">
+           <div class="min">
+               <h4>category</h4>
+          <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+          </div>
+       </div>
+       <div class="col-md-6 col-lg-3 mt-4">
+           <div class="min">
+               <h4>category</h4>
+          <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+          </div>
+       </div>
+       
+       <div class="col-md-6 col-lg-3 mt-4">
+           <div class="min">
+               <h4>category</h4>
+          <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+          </div>
+       </div>
+       <hr class="mt-4">
+       <div class="col-md-4 col-lg-3 mt-4">
+           <div class="min">
+               <h4>category</h4>
+          <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+          </div>
+       </div>
+       <div class="col-md-4 col-lg-3 mt-4">
+           <div class="min">
+               <h4>category</h4>
+          <ul class="">
+              <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+              <li><a href="./all-product.html" target="_self">men clothes</a></li>
+              <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+              <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+              <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+          </ul>
+          </div>
+       </div>
+       <div class="col-md-4 col-lg-6 ">
+           <div class="min">
+               <h4>category</h4>
+         <img class="w-100 h-100 height " src="./imgs/hom_header/banner06.jpg" alt="banner07">
+          </div>
+       </div>
+   </div>
+</div>
+</div>
+<!-- end-->
+ </div>
+   </li>
+       <li><a class="dropdown-item" href="./all-product.html" target="_self"> Bags & shoes </a></li>
+       <li><a class="dropdown-item" href="./all-product.html" target="_self">view all </a></li>
+       </ul>
+     </li>
+     <li class="nav-item "> <a class="nav-link ms-lg-5 ps-lg-5 fix" href="./index.html" target="_self">home</a> </li>
+     <li class="nav-item fix"><a class="nav-link" href="./shop.html" target="_self"> shop  </a></li>
+
+     <li class="nav-item has-submenu fix">
+      <a class=" nav-link dropdown-toggle " href="./all-product.html" target="_self"  data-bs-toggle="dropdown" > woman  </a>
+      <div class="megasubmenu down dropdown-menu middel_mega_menu  ">
+           <!--  -->
+<!-- hover list -->
+<div class="list_paralex">
+<div class="container">
+   <div class="row">
+   <div class="col-md-4">
+       <div class="min">
+            <h4>category</h4>
+        <ul class="">
+          <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+          <li><a href="./all-product.html" target="_self">men clothes</a></li>
+          <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+          <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+          <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+      </ul>
+       </div>
+   </div>
+   <div class="col-md-4 my-2">
+       <div class="min">
+           <h4>category</h4>
+      <ul class="">
+          <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+          <li><a href="./all-product.html" target="_self">men clothes</a></li>
+          <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+          <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+          <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+      </ul>
+      </div>
+   </div>
+   <div class="col-md-4">
+       <div class="min">
+           <h4>category</h4>
+      <ul class="">
+          <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+          <li><a href="./all-product.html" target="_self">men clothes</a></li>
+          <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+          <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+          <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+      </ul>
+      </div>
+   </div>
+   <hr>
+   <div class="col-sm-12 ">
+       <div class="image img-fluid">
+         
+       </div>
+   </div>
+</div>
+</div>
+</div>
+<!-- end-->
+<!--  --> 
+</div>
+</li>
+<li class="nav-item has-submenu fix">
+  <a class=" nav-link dropdown-toggle " href="./all-product.html" target="_self"  data-bs-toggle="dropdown" > men  </a>
+  <div class="megasubmenu down dropdown-menu middel_mega_menu  ">
+   <!--  -->
+<!-- hover list -->
+<div class="list_paralex">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-lg-3 mt-4 ">
+<div class="min">
+   <div class="card">
+       <img src="./imgs/hom_header/banner08.jpg" alt="banner08">
+       <div class="over">woman's  </div>
+           </div>
+    <h4 class="card_title">category</h4>
+<ul class="">
+  <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+  <li><a href="./all-product.html" target="_self">men clothes</a></li>
+  <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+  <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+  <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+</ul>
+</div>
+
+</div>
+<div class="col-md-6 col-lg-3 mt-4 ">
+<div class="min">
+   <div class="card">
+       <img src="./imgs/hom_header/banner07.jpg" alt="banner07">
+       <div class="over">woman's  </div>
+           </div>
+    <h4 class="card_title">category</h4>
+<ul class="">
+  <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+  <li><a href="./all-product.html" target="_self">men clothes</a></li>
+  <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+  <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+  <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+</ul>
+</div>
+
+</div>
+<div class="col-md-6 col-lg-3 mt-4 ">
+<div class="min">
+   <div class="card"> 
+       <img src="./imgs/hom_header/banner06.jpg" alt="banner06">
+       <div class="over">woman's  </div>
+           </div>
+    <h4 class="card_title">category</h4>
+<ul class="">
+  <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+  <li><a href="./all-product.html" target="_self">men clothes</a></li>
+  <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+  <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+  <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+</ul>
+</div>
+
+</div>
+<div class="col-md-6 col-lg-3 mt-4 ">
+<div class="min">
+   <div class="card">
+       <img src="./imgs/hom_header/banner09.jpg" alt="banner09">
+       <div class="over">woman's  </div>
+           </div>
+    <h4 class="card_title">category</h4>
+<ul class="">
+  <li><a href="./all-product.html" target="_self">woman clothes</a></li>
+  <li><a href="./all-product.html" target="_self">men clothes</a></li>
+  <li><a href="./all-product.html" target="_self"> gallery & watches</a></li>
+  <li><a href="./all-product.html" target="_self">Bags & shoes</a></li>
+  <li><a href="./all-product.html" target="_self">computer & office</a></li> 
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- end-->
+<!--  -->
+</div>
+</li>
+<li class="nav-item fix"><a class="nav-link " href="./contact.html" target="_self"> contact  </a></li>
+     <li class="nav-item has-submenu fix page_item ">
+      <a class = 'nav-link head' href="./all-product.html" target="_self"> pages <i class="fa-sharp fa-solid fa-play"></i> </a>
+      <ul class='pages_links'>
+        <li> <a href='./all-product.html' target='_self'> all product </a></li>
+        <li> <a href='./account.html' target='_self'> my account </a></li>
+        <li> <a href='./cart page.html' target='_self'> my cart </a></li>
+      </ul>
+   </li>
+   </ul>
+ </div>
+ <!-- navbar-collapse.// -->
+</div>
+<!-- container-fluid.// -->
+</nav>
+<!--  -->
+
+<!-- start cart page -->
+<section class="cartOrder"  data-aos="fade-in"  data-aos-duration="500" data-aos-delay="100">
+    <div class="container">
+      
+        <div class="row">
+            <div class="col-4">
+            <div class="cartTopHeadingLink">
+                <a href="./index.html" target='_self'> home</a>
+                <a href="#"> order</a>
+            </div>
+            <hr>
+        </div>
+        <!--  -->
+        <h5>order review</h5> 
+        <div class="col-12">
+            <div class="headingDetails d-flex">
+                <span>product information</span>
+                <span>product quantity && price</span>
+            </div>
+        </div>
+        <div class="col-12"> 
+                <!-- cart item -->
+    <div class="cartItem">
+        <div class="min">
+        <img src="./imgs/hom_header/bg10.webp" alt="cs1.webp">
+        <!--  -->
+        <div class="productInfo">
+            <h5>back page</h5>
+            <span class="size">size <span>xxl</span></span>
+            <span class="color">color <span>orange</span></span>
+        </div>
+        <!-- price -->
+        <div class="productPrice">
+          <h5 class="price d-inline-block">45.32 </h5><span> egp</span>
+          <span class="oldPrice d-block">77.43 egp</span>
+        </div>
+    </div>
+    <div class="min">
+        <!-- productAmount -->
+        <div class="productAmount">
+            <button class="decrees"> - </button>
+            <span class="inpAmount">1</span>
+            <button class="increase"> + </button>
+        </div>
+        <!-- totalPrice -->
+        <div class="totalPrice">
+            <span class="total">45.32  </span> <span>egp</span>
+        </div>
+        <!-- actionRemove -->
+        <button class="removeBtn"><i class="fa-solid fa-trash "></i></button>
+       </div>
+      </div>
+      <div class="cartItem">
+        <div class="min">
+        <img src="./imgs/hom_header/bg10.webp" alt="cs1.webp">
+        <!--  -->
+        <div class="productInfo">
+            <h5>back page</h5>
+            <span class="size">size <span>xxl</span></span>
+            <span class="color">color <span>orange</span></span>
+        </div>
+        <!-- price -->
+        <div class="productPrice">
+          <h5 class="price d-inline-block">45.32 </h5> <span> egp</span>
+          <span class="oldPrice d-block">77.43 egp</span>
+        </div>
+    </div>
+    <div class="min">
+        <!-- productAmount -->
+        <div class="productAmount">
+            <button class="decrees"> - </button>
+            <span class="inpAmount">1</span>
+            <button class="increase"> + </button>
+        </div>
+        <!-- totalPrice -->
+        <div class="totalPrice">
+            <span class="total">45.32  </span> <span>egp</span>
+        </div>
+        <!-- actionRemove -->
+        <button class="removeBtn"><i class="fa-solid fa-trash "></i></button>
+       </div>
+      </div>
+      <div class="cartItem">
+        <div class="min">
+        <img src="./imgs/hom_header/bg10.webp" alt="cs1.webp">
+        <!--  -->
+        <div class="productInfo">
+            <h5>back page</h5>
+            <span class="size">size <span>xxl</span></span>
+            <span class="color">color <span>orange</span></span>
+        </div>
+        <!-- price -->
+        <div class="productPrice">
+          <h5 class="price d-inline-block">45.32 </h5> <span> egp</span>
+          <span class="oldPrice d-block">77.43 egp</span>
+        </div>
+    </div>
+    <div class="min">
+        <!-- productAmount -->
+        <div class="productAmount">
+            <button class="decrees"> - </button>
+            <span class="inpAmount">1</span>
+            <button class="increase"> + </button>
+        </div>
+        <!-- totalPrice -->
+        <div class="totalPrice">
+            <span class="total">45.32  </span><span>egp</span>
+        </div>
+        <!-- actionRemove -->
+        <button class="removeBtn"><i class="fa-solid fa-trash "></i></button>
+       </div>
+      </div>
+     </div>
+     <div class="col-12">
+        <div class="totalPriceAmount">
+            <ul>
+                <li class="item"><span>sup total</span> <span id="supTotla">0 </span></li>
+                <li class="item"><span>shipping</span> <span id="shipping">60</span></li>
+                <li class="item tot"><span> total</span> <span id="totalPrice">0 </span></li>
+            </ul>
+       
+            <input id="getOrder" type="submit" value="confirm order">
+         </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- section last order -->
+<section class=" new_arrival custom_arrival pb-5 mt-3" data-aos="fade-in"  data-aos-duration="500" data-aos-delay="100"> 
+    <div class="container">
+       <h5>last orders</h5> 
+    <hr>
+         <!-- last order -->
+   <div class="row row_slider">
+   
+       <div class="col-md-7 col-lg-4 main_col d-flex" data-aos="fade-in"  data-aos-duration="500" data-aos-delay="100">
+                  <div class="img">
+                      <div class="overlay"> 
+                          <div class="info px-3" >
+                              <h3 class=" ">last daley<span class="ms-2">order</span></h3>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id autem alias sint perspiciatis provident delectus necessitatibus blanditiis ad magni <br>odit inventore fuga explicabo, earum </p>  
+                              <button class="order"><a href="#"> get now</a></button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-5 col-lg-8 main_col mt-4 mt-lg-0"   data-aos="fade-in-right"  data-aos-duration="500" >
+                  <!-- slick_slid -->
+              <div class="owl-carousel owl-theme">
+                <div class="item_slid">
+                  <div class="overlay">
+                      <button><a href="./singel product.html" target="_self">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a></button>
+                  </div>
+                 <a href="#">
+                  <img src="./imgs/home_new-arrival/pr2.jpg" alt="product2"></a>
+                
+              <div class="info">
+              <button>  <i class="fa-solid fa-share-nodes"></i></button>
+              <button>  <i class="fa-solid fa-retweet"></i> </button> 
+              <button>  <i class="fa-solid fa-heart"></i> </button> 
+              </div>
+              <div class="footer_info mt-3 text-center">  
+                <h5>T-shirt </h5>
+               <span>
+                  Nike unisex club fleece <br>t-shirt </span>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i>
+                </div>
+                <h6 class="price">$66.00</h6>
+                <button class="add"><a href="#">add to cart &nbsp;  <i class="fa-solid fa-cart-arrow-down"></i></a></button>
+              </div>
+              </div>
+              
+               <!-- second slide item -->
+               <div class="item_slid">
+                  <div class="overlay">
+                      <button><a href="./singel product.html" target="_self">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a></button>
+                  </div>
+                 <a href="#">
+                  <img src="./imgs/home_new-arrival/pr3.jpg" alt="product3"></a>
+                
+              <div class="info">
+              <button>  <i class="fa-solid fa-share-nodes"></i></button>
+              <button>  <i class="fa-solid fa-retweet"></i> </button> 
+              <button>  <i class="fa-solid fa-heart"></i> </button> 
+              </div>
+              <div class="footer_info mt-3 text-center">  
+                <h5>T-shirt </h5>
+               <span>
+                  Nike unisex club fleece <br>t-shirt </span>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i>
+                </div>
+                <h6 class="price">$66.00</h6>
+                <button class="add"><a href="#">add to cart &nbsp;  <i class="fa-solid fa-cart-arrow-down"></i></a></button>
+              </div>
+              </div>
+                   <!-- item number 3 -->
+                   <div class="item_slid">
+                      <div class="overlay">
+                          <button><a href="./singel product.html" target="_self">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a></button>
+                      </div>
+                     <a href="#">
+                      <img src="./imgs/home_new-arrival/pr4.jpg" alt="product4"></a>
+                    
+                  <div class="info">
+                  <button>  <i class="fa-solid fa-share-nodes"></i></button>
+                  <button>  <i class="fa-solid fa-retweet"></i> </button> 
+                  <button>  <i class="fa-solid fa-heart"></i> </button> 
+                  </div>
+                  <div class="footer_info mt-3 text-center">  
+                    <h5>T-shirt </h5>
+                   <span>
+                      Nike unisex club fleece <br>t-shirt </span>
+                    <div class="rate">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half"></i>
+                    </div>
+                    <h6 class="price">$66.00</h6>
+                    <button class="add"><a href="#">add to cart &nbsp;  <i class="fa-solid fa-cart-arrow-down"></i></a></button>
+                  </div>
+                  </div>
+                   <!-- item number 4 -->
+                   <div class="item_slid">
+                      <div class="overlay">
+                          <button><a href="./singel product.html" target="_self">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a></button>
+                      </div>
+                     <a href="#">
+                      <img src="./imgs/home_new-arrival/pr5.jpg" alt="product5"></a>
+                    
+                  <div class="info">
+                  <button>  <i class="fa-solid fa-share-nodes"></i></button>
+                  <button>  <i class="fa-solid fa-retweet"></i> </button> 
+                  <button>  <i class="fa-solid fa-heart"></i> </button> 
+                  </div>
+                  <div class="footer_info mt-3 text-center">  
+                    <h5>T-shirt </h5>
+                   <span>
+                      Nike unisex club fleece <br>t-shirt </span>
+                    <div class="rate">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half"></i>
+                    </div>
+                    <h6 class="price">$66.00</h6>
+                    <button class="add"><a href="#">add to cart &nbsp;  <i class="fa-solid fa-cart-arrow-down"></i></a></button>
+                  </div>
+                  </div>
+                   <!-- item number 5 -->
+                   <div class="item_slid">
+                      <div class="overlay">
+                          <button><a href="./singel product.html" target="_self">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a></button>
+                      </div>
+                     <a href="#">
+                      <img src="./imgs/home_new-arrival/pr6.jpg" alt="product6"></a>
+                    
+                  <div class="info">
+                  <button>  <i class="fa-solid fa-share-nodes"></i></button>
+                  <button>  <i class="fa-solid fa-retweet"></i> </button> 
+                  <button>  <i class="fa-solid fa-heart"></i> </button> 
+                  </div>
+                  <div class="footer_info mt-3 text-center">  
+                    <h5>T-shirt </h5>
+                   <span>
+                      Nike unisex club fleece <br>t-shirt </span>
+                    <div class="rate">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half"></i>
+                    </div>
+                    <h6 class="price">$66.00</h6>
+                    <button class="add"><a href="#">add to cart &nbsp;  <i class="fa-solid fa-cart-arrow-down"></i></a></button>
+                  </div>
+                  </div>
+                   <!-- item number 6 -->
+                   <div class="item_slid">
+                      <div class="overlay">
+                          <button><a href="./singel product.html" target="_self">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a></button>
+                      </div>
+                     <a href="#">
+                      <img src="./imgs/home_new-arrival/pr9.jpg" alt="product9"></a>
+                    
+                  <div class="info">
+                  <button>  <i class="fa-solid fa-share-nodes"></i></button>
+                  <button>  <i class="fa-solid fa-retweet"></i> </button> 
+                  <button>  <i class="fa-solid fa-heart"></i> </button> 
+                  </div>
+                  <div class="footer_info mt-3 text-center">  
+                    <h5>T-shirt </h5>
+                   <span>
+                      Nike unisex club fleece <br>t-shirt </span>
+                    <div class="rate">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half"></i>
+                    </div>
+                    <h6 class="price">$66.00</h6>
+                    <button class="add"><a href="#">add to cart &nbsp;  <i class="fa-solid fa-cart-arrow-down"></i></a></button>
+                  </div>
+                  </div>
+              </div> 
+              </div>
+          </div>
+    </div>
+  </section>
+  <!--  -->
+
+
+
+
+
+
+
+
+
+   <!-- start svaedItem images -->
+   <section class="shopAllProduct savedItem"  data-aos="fade-in"  data-aos-duration="500" data-aos-delay="100"> 
+    <div class="container">
+        <h5 class='savedi'>your saved item</h5>
+        <hr class='mb-0'>
+        <div class="row">
+            <div class="col-12 colMin">
+   <div class="imgFilter priceContent my-4">
+    <div class="item"  data-aos="fade-in"  data-aos-duration="500" data-aos-delay="200"> 
+      <div class="topImg">
+        <span class="discount">-33%</span>
+        <div class="over"> 
+          <a href="#">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a>
+        </div>
+      </div>
+      <div class="info">
+        <h6>33.45 egp <span>55.29 egp</span></h6>
+        <div class="rate d-flex">
+         <span> product name </span>
+          <div class="review">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="action d-flex">
+          <button><i class="fa-solid fa-heart"></i></button>
+          <button><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- item 2 -->
+    <div class="item"  data-aos="fade-in"  data-aos-duration="500" data-aos-delay="400">
+      <div class="topImg">
+        <span class="discount">-33%</span>
+        <div class="over"> 
+          <a href="#">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a>
+        </div>
+      </div>
+      <div class="info">
+        <h6>33.45 egp <span>55.29 egp</span></h6>
+        <div class="rate d-flex">
+         <span> product name </span>
+          <div class="review">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="action d-flex">
+          <button><i class="fa-solid fa-heart"></i></button>
+          <button><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- item 3 -->
+    <div class="item"  data-aos="fade-in"  data-aos-duration="500" data-aos-delay="600">
+      <div class="topImg">
+        <span class="discount">-33%</span>
+        <div class="over"> 
+          <a href="#">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a>
+        </div>
+      </div>
+      <div class="info">
+        <h6>33.45 egp <span>55.29 egp</span></h6>
+        <div class="rate d-flex">
+         <span> product name </span>
+          <div class="review">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="action d-flex">
+          <button><i class="fa-solid fa-heart"></i></button>
+          <button><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- item 4 -->
+    <div class="item"  data-aos="fade-in"  data-aos-duration="500" data-aos-delay="800">
+      <div class="topImg">
+        <span class="discount">-33%</span>
+        <div class="over"> 
+          <a href="#">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a>
+        </div>
+      </div>
+      <div class="info">
+        <h6>33.45 egp <span>55.29 egp</span></h6>
+        <div class="rate d-flex">
+         <span> product name </span>
+          <div class="review">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="action d-flex">
+          <button><i class="fa-solid fa-heart"></i></button>
+          <button><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+     <!-- item 5 -->
+     <div class="item">
+        <div class="topImg">
+          <span class="discount">-33%</span>
+          <div class="over"> 
+            <a href="#">view more <i class="fa-solid fa-magnifying-glass-plus"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h6>33.45 egp <span>55.29 egp</span></h6>
+          <div class="rate d-flex">
+           <span> product name </span>
+            <div class="review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="action d-flex">
+            <button><i class="fa-solid fa-heart"></i></button>
+            <button><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+ <!-- start footer end info  -->
+ <section class='footer_content mt-0'   data-aos="fade-in-up"  data-aos-duration="500" data-aos-delay="0">
+  <footer> 
+  <div class="container mt-0">
+    <div class="card mx-5">
+        <div class="row mb-4 ">
+            <div class="col-sm-6 col-lg-4 mt-3 min">
+                <div class="footer-text pull-left">
+                  <img src="./imgs/hom_header/logo.png"  alt="logo" title='logo img'>
+                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non pariatur numquam animi nam at impedit odit nisi.</p>
+                     <div class="social mt-2 mb-1">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                     </div>
+                 </div>
+            </div>
+           <div class="col-sm-6 col-lg-3 mt-3 min">
+                <h5 class="heading">Services</h5>
+                <ul  class="card-text">
+                    <li><a href="./index.html" target="_self">home</a> </li>
+                    <li><a href="./all-product.html" target="_self">all product </a> </li>
+                    <li><a href="./account.html" target="_self">account</a> </li>
+                </ul>
+            </div>
+             <div class="col-sm-6 col-lg-3 mt-3 min">
+                <h5 class="heading">Industries</h5>
+                <ul class="card-text">
+                  <li><a href="./index.html" target="_self">Finance</a></li>
+                  <li><a href="./index.html" target="_self">Public Sector</a></li>
+                  <li><a href="./index.html" target="_self">Smart Office</a></li>
+                  <li><a href="./index.html" target="_self">Retail</a></li>
+                </ul>
+            </div>      
+             <div class="col-sm-6 col-lg-2 mt-3 min">
+                <h5 class="heading">Company</h5>
+                <ul class="card-text">
+                    <li><a href="./index.html" target="_self">About Us</a></li>
+                    <li><a href="./index.html" target="_self">Blog</a></li>
+                    <li><a href="./contact.html" target="_self">Contact</a></li>
+                    <li><a href="./account.html" target="_self">Join Us</a></li>
+                </ul>
+             </div>
+        </div>          
+        <div class="divider mb-2" >   
+        </div>         
+        <div class="row" >
+        <div class="col-12  col-md-5">
+            <div class="pull-left "> 
+              <p class='copy'> 2022 <i class="fa fa-copyright"></i><a href="https://www.linkedin.com/in/menna-mahmoud-8713baa8/" target="_blank">Mennatullah</a></p>
+            </div>
+        </div>
+        <div class="col-12 col-md-7">
+            <div class="pull-right pull-right2 mr-4  policy"> 
+                <ul class='d-flex'> 
+                  <li><a href="./account.html" target="_self">Terms of Use</a> </li>
+                  <li><a href="./account.html" target="_self">Privacy Policy</a> </li>
+                  <li><a href="./account.html" target="_self">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+   </div>
+ </div>
+</div>
+</footer>   
+</section>
+
+<!-- start scroll to top button -->
+<div class="scroll_to_top">
+  <a href="#"> <i class="fa-solid fa-angles-up"></i></a>
+ </div>
+
+<!-- page loading ____________________________________-->
+<div class="loading_container">
+<div class="loading-spinner">
+    <div class="main_content">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+ </div>
+</div>
+
+
+
+
+ 
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" ></script>
+    <!-- jquery ui -->
+    <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" ></script>
+    <!-- AOS.js CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- font-awesome js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <!-- Bootstrap 5 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!-- owl-carousel slider  CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom js style -->
+        <script src="./js/min.js"></script>
+        <script src="./js/cart.js"></script>
+    </body>
+    </html> 
