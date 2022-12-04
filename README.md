@@ -2,7 +2,6 @@
 
 # Live Demo
 
-# [https://ahmed-ragap.github.io/Ecommerce-Website/index.html]
 
 
 # __Details__
